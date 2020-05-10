@@ -12,6 +12,6 @@ Simple layered architecture
 4. **Contoso.Data** - Entity Framework core implementation 
 5. **Contoso.Tests** - Backend Unit test   
 
-![screenshot1](images/soln.png)
-![screenshot2](images/swagger1.png)
-![screenshot3](images/swagger2.png)
+![screenshot1](Images/soln.png)
+![screenshot2](Images/swagger1.png)
+![screenshot3](Images/swagger2.png)
