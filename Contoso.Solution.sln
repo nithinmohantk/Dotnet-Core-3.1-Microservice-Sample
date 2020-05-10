@@ -19,9 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.BackEnd.BusinessLogic", "Contoso.BusinessLogic\Contoso.BackEnd.BusinessLogic.csproj", "{9464835E-7217-4C9B-AC17-DBD5C4AB9619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.BackEnd.BusinessLogic", "Contoso.BusinessLogic\Contoso.BackEnd.BusinessLogic.csproj", "{9464835E-7217-4C9B-AC17-DBD5C4AB9619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.BackEnd.Tests", "Contoso.BackEnd.Tests\Contoso.BackEnd.Tests.csproj", "{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.BackEnd.Tests", "Contoso.BackEnd.Tests\Contoso.BackEnd.Tests.csproj", "{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{A46091D6-15A1-43A4-8465-59BD123FC4A0}"
+	ProjectSection(SolutionItems) = preProject
+		Images\swagger1.PNG = Images\swagger1.PNG
+		Images\swagger2.PNG = Images\swagger2.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
