@@ -1,4 +1,4 @@
-﻿namespace Contoso.BackEnd.Generator.Api.BLL
+﻿namespace Contoso.BackEnd.BusinessLogic
 {
     public interface IMultiplicationEngine
     {

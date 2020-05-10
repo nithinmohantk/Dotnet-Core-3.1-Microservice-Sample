@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Contoso.BackEnd.BusinessLogic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +33,10 @@ namespace Contoso.BackEnd.Generator.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Contoso.Generator API", Version = "v1" });
             });
+
+
+            services.AddTransient<IMultiplicationEngine, MultiplicationEngine>();
+            services.AddTransient<IRandomGeneratorEngine, RandomGeneratorEngine>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

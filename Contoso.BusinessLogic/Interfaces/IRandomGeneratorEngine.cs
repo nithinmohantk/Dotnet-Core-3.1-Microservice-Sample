@@ -1,8 +1,9 @@
-﻿using Contoso.BackEnd.Generator.Api.Models;
+﻿using Contoso.BackEnd.BusinessLogic.Models;
+
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Contoso.BackEnd.Generator.Api.BLL
+namespace Contoso.BackEnd.BusinessLogic
 {
     public interface IRandomGeneratorEngine
     {

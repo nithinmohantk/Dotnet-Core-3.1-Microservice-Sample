@@ -7,14 +7,12 @@ namespace Contoso.Data.Entities
     public class Job : BaseEntity
     {
         
-        public List<JobResult> Results { get; set; }
+        public List<BatchProcess> Batches { get; set; }
 
-        public DateTime CreatedTime { get; set; }
-
-        public DateTime CompletionTime { get; set; }
-
-        public string Status { get; set; }
-
-        public string Message { get; set; }
+        public JobInfo Info
+        {
+            get;
+            set;
+        }
     }
 }

@@ -15,7 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Contoso.BusinessLogic\Contoso.BackEnd.BusinessLogic.csproj" />
     <ProjectReference Include="..\Contoso.Core\Contoso.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 

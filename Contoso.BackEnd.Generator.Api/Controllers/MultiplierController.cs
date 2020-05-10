@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Contoso.BackEnd.Generator.Api.BLL;
-using Contoso.BackEnd.Generator.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -11,6 +9,8 @@ using System.Diagnostics;
 
 namespace Contoso.BackEnd.Generator.Api.Controllers
 {
+    using Contoso.BackEnd.BusinessLogic;
+    using Contoso.BackEnd.BusinessLogic.Models;
     using Core.Extensions;
     [Route("api/[controller]")]
     [ApiController]
@@ -18,13 +18,14 @@ namespace Contoso.BackEnd.Generator.Api.Controllers
     {
 
         private readonly ILogger<MultiplierController> _logger;
-        MultiplicationEngine engine = new MultiplicationEngine();
+        IMultiplicationEngine _engine ;
 
         /// <summary>Initializes a new instance of the <see cref="MultiplierController" /> class.</summary>
         /// <param name="logger">The logger.</param>
-        public MultiplierController(ILogger<MultiplierController> logger)
+        public MultiplierController(ILogger<MultiplierController> logger, IMultiplicationEngine engine)
         {
             _logger = logger;
+            _engine = engine;
         }
 
         /// <summary>Gets the specified y.</summary>

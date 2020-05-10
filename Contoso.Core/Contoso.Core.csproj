@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Contoso.Core</AssemblyName>
+    <RootNamespace>Contoso</RootNamespace>
   </PropertyGroup>
 
 </Project>

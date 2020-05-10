@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Contoso.Core
+namespace Contoso
 {
     public static class Constants
     {

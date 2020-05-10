@@ -11,7 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.BackEnd.Generator.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Core", "Contoso.Core\Contoso.Core.csproj", "{69A8E7F6-2A1F-4D9B-AB92-8F0E68590AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Data", "Contoso.Data\Contoso.Data.csproj", "{44F1A63F-4FE5-49D6-A75B-2B9C7CFEAE1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Data", "Contoso.Data\Contoso.Data.csproj", "{44F1A63F-4FE5-49D6-A75B-2B9C7CFEAE1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F945126-E319-495F-9BD6-CFE67375F46E}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.BackEnd.BusinessLogic", "Contoso.BusinessLogic\Contoso.BackEnd.BusinessLogic.csproj", "{9464835E-7217-4C9B-AC17-DBD5C4AB9619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.BackEnd.Tests", "Contoso.BackEnd.Tests\Contoso.BackEnd.Tests.csproj", "{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,14 @@ Global
 		{44F1A63F-4FE5-49D6-A75B-2B9C7CFEAE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44F1A63F-4FE5-49D6-A75B-2B9C7CFEAE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44F1A63F-4FE5-49D6-A75B-2B9C7CFEAE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9464835E-7217-4C9B-AC17-DBD5C4AB9619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9464835E-7217-4C9B-AC17-DBD5C4AB9619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9464835E-7217-4C9B-AC17-DBD5C4AB9619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9464835E-7217-4C9B-AC17-DBD5C4AB9619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF0EE68-C8D3-4EDA-AD5D-C068B97A49E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

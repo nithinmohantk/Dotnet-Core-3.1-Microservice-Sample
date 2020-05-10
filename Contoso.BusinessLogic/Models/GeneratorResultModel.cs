@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Contoso.BackEnd.Generator.Api.Models
+namespace Contoso.BackEnd.BusinessLogic.Models
 {
     public class GeneratorResultModel : BaseModel
     {

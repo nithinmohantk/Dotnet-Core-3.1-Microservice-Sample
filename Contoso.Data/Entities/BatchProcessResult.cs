@@ -2,9 +2,9 @@
 
 namespace Contoso.Data.Entities
 {
-    public class JobResult : BaseEntity
+    public class BatchProcessResult : BaseEntity
     {
-        public Guid Id { get; set; }
+      
         public string Number { get; set; }
 
         public int Result { get; set; }

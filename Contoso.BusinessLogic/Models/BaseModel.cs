@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Contoso.BackEnd.Generator.Api.Models
+namespace Contoso.BackEnd.BusinessLogic.Models
 {
     public class BaseModel
     {
